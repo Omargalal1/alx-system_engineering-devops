@@ -1,2 +1,2 @@
 #!/bin/bash
-find "$PWD" -name "*.html" -type f -exec cp --update {} "$PWD/../" \;
+cp -u *.html ..
